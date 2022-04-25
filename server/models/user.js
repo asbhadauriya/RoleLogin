@@ -20,12 +20,23 @@ const UserSchema = new mongoose.Schema({
         type: String,
         required: true,
      },
+    subscriber:{
+      type:Array,
+      default:[]
+      
+  },
+  subscribed:{
+     type:Array,
+     default:[]
+  },
     role:{
        type: String,
        default: "User"
     }
-     
-});
+      
+},
+{timestamps:true}
+);
 
 const UserModel = mongoose.model("user",UserSchema)
 module.exports = UserModel;

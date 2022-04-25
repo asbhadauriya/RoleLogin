@@ -1,0 +1,33 @@
+.profileInfo{
+   display: flex;
+   justify-content: space-between;
+   width: 108%;
+    
+}
+.profileRight{
+    display: flex;
+    justify-content: space-around;
+    margin: 18px 0px;
+    border-bottom: 1px solid grey;
+}
+.profile{
+    flex:1;
+}
+.button{
+    margin: 10px;
+
+}
+.button:hover{
+    color:red;
+}
+.profileCover{
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    background-color: aliceblue;
+    justify-content: center;
+}
+.userName{
+    text-decoration: solid;
+    font-size: large;
+}

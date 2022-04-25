@@ -1,0 +1,38 @@
+.nav_option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    color: gray;
+    cursor: pointer;
+    
+    
+}
+.nav_option:hover{
+    color: black;
+}
+.navoption_title{
+font-size: 12px;
+font-weight: 400;
+}
+.navIcon{
+    object-fit: contain;
+    height: 25px !important;
+    width: 25px !important;
+    position: relative;
+}
+.counter{
+    height: 5px;
+    width: 5px;
+    background-color: lightblue;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+
+}
